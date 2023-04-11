@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+nav{
+    padding: 20px;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftmain{
+    width: 50%;
+    margin-left: 70px;
+}
+.leftmain h1{
+    font-size:67px;
+}
+.leftmain p{
+    padding-top: 25px;
+    margin-left: 5px;
+}
+.leftmain button{
+    margin-top: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    margin-left: 5px;
+}
+.rightsection{
+    width: 50%;
+}
+.lol{
+    padding-bottom: 5px;
+}

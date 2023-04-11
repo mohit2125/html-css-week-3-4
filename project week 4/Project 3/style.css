@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(61, 56, 49);
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    width: 80px;
+    margin-right: 180px;
+   
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 26px;
+    color: rgba(240, 248, 255, 0.718);
+    padding-inline: 10px;
+  
+}
+nav button{
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px #edc226ea;
+    font-weight: 600;
+    font-size: large;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #edc226ea;
+    background-color: rgb(61, 56, 49);
+    filter: blur(.5px);
+}
+/* hero section */
+
+.upper{
+    display: flex;
+   column-gap: 80px;
+}
+
+.left h1{
+    color: aliceblue;
+    margin-left: 270px;
+    font-weight: 600;
+    font-size: 55px;
+    width: 450px;
+    
+    
+}
+.right .lol{
+    color: aliceblue;
+    margin-right: 200px;
+    margin-top: 80px;
+    width: 38vmin;
+}
+.banner{
+    width: 900px;
+    height: 480px;
+    margin-left: 270px;
+}

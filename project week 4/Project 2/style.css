@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: #fff;
+    
+
+}
+    nav{
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .med{
+        margin-top: 20px;
+        margin-left: 12vh;
+    }
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    font-size: 95%;
+    font-weight: 600;
+    list-style: none;
+    margin-top:20px;
+    margin-right: 120px;
+}
+nav ul li:first-child{
+    color: green;
+}
+
+/* main section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section{
+    width: 50%;
+}
+.left{
+    position: relative;
+    margin-left: 5%;
+}
+
+.top{
+    width: 20px;
+    margin-left: 35px;
+    margin-top: 140px;
+
+}
+.left h1{
+    font-size: 70px;
+    margin-bottom: 200vh;
+    margin-left:35px ;
+}
+.left p{
+    position: relative;
+    color: grey;
+    font-size:18px ;
+    bottom: 1560px;
+    left: 40px;
+}
+.bot{
+    width: 25px;
+    position: absolute;
+    right: 60px;
+    bottom: 1540px;
+}
+.sthes{
+    position: absolute;
+    width: 90%;
+    bottom: 1440px;
+    margin-left: 10px;
+}
+.mouse{
+    position: absolute;
+    right: 10px;
+    bottom:1520px;
+    width: 30px;
+}
+.left button{
+    position: relative;
+    color:white ;
+    background-color: green;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+    bottom: 1530px;
+    left: 35px;
+    width: 300px;
+}
+.green{
+    position: relative;
+   
+    width: 550px;
+    left: 40px;
+    top: 150px;
+}
+.yellow{
+position: relative;
+bottom: 270px;
+left: 95px;
+width: fit-content;
+    
+}
+.doc{
+    position: relative;
+    bottom: 1040px;
+}
+.right{
+    position: relative;
+}
