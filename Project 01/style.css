@@ -1,0 +1,79 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.navbar-container img{
+    width: 70px;
+    margin-top: 12px;
+   margin-left: 20px;
+}
+.grow-list .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 50px;
+    color: grey;
+}
+.list-item:nth-child(1){
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+.button-group .nav-button{
+    margin-left: 500px;
+    background-color: #4e25d3ed;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    margin-top: 10px;
+    }
+    /* hero section */
+
+    .banner-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+    }
+    .heading-text{
+        position: relative;
+        width:250px;
+        margin-left: 160px;
+        padding-top: 100px;
+        
+        font-size: 40px;
+        font-weight: 600;
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(11, 3, 33, 0.724);
+    }
+    .heading-text span{
+        color:rgb(109, 71, 234);
+    }
+    .description{
+        position: relative;
+        width: 500px;
+        
+        margin-left: 160px;
+        text-align:start;
+        font-size: 1.5rem;
+        color: rgb(95, 95, 95);
+    }
+
+    .nav-button-btn{
+        margin-left: 165px;
+        background-color: #4e25d3ed;
+        color: #cacaca;
+        border-radius: 10px;
+        padding: 12px 20px 12px 20px;
+        border: none;
+
+        
+    }
